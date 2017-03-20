@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inputName"
+        android:backgroundTint="#666666"
+        android:drawableLeft="@drawable/avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textAllCaps="false"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:hint="  Nome"
+        android:textColor="#666666"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/inputCPF"
+        android:backgroundTint="#666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/id3"
+        android:hint="  CPF"
+        android:textColor="#666666"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/inputApt"
+        android:backgroundTint="#666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/apt"
+        android:hint="  Apartamento"
+        android:textColor="#666666"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:backgroundTint="#666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/email1"
+        android:hint="  Email"
+        android:textColor="#666666"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/inputSenha"
+        android:backgroundTint="#666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/senha1"
+        android:hint="  Senha provisória"
+        android:textColor="#666666"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/inputTelefone"
+        android:backgroundTint="#666666"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/phone1"
+        android:hint="  Telefone"
+        android:textColor="#666666"
+        android:textSize="20dp" />
+
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/inputCarro"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/carro"
+            android:hint="  Carro(s)"
+            android:textColor="#666666"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/inputPlaca"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/plaate"
+            android:hint="  Placa(s)  "
+            android:textColor="#666666"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/cadastraruser"
+            android:layout_width="195dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:text="   Cadastrar "
+            android:textColor="#666666"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</LinearLayout>
+

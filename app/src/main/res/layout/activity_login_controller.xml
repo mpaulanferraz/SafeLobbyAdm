@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:weightSum="1"
+    android:background="#e43f3f"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/email"
+        android:backgroundTint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="text"
+        >
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="Senha" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:backgroundTint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:textColor="#e43f3f"
+        android:background="#ffffff"
+        android:text="Entrar"/>
+
+    <Button android:id="@+id/esqueceusenha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="24dp"
+        android:text="Esqueceu a senha?"
+        android:gravity="center"
+        android:textSize="16dip"/>
+
+
+</LinearLayout>
