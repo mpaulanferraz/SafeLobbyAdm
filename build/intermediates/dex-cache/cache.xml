@@ -3,12 +3,57 @@
 
     <item
         is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_a3479cfef91da9066c37232682879bc2a03ed62e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_ca99aca20eaecd5e7e1b178e1ceeded00945e9ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_f14cd8f646f28b888e50702a7b37d07fd790b01e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_a0a4a6a4cdeabd8b56567ce50dffe58271142432/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/MariaPaula/AndroidStudioProjects/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
         <dex dex="/Users/MariaPaula/AndroidStudioProjects/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_b3f53c5a1867b1bbb8ae9e0139ce28ea047d3362/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4121fa5715834ac5312a1e582f16e794a92a7330">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cc665bce7fbaedd642f85f6439f8e4f143898e8e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,12 +66,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_c58da14b24dfd13df70a8e87f6533efe74fce823/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_a7df6bb4bc8a48418243a583791ce3e2f1b6784a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/MariaPaula/AndroidStudioProjects/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
         <dex dex="/Users/MariaPaula/AndroidStudioProjects/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_708e8ced99f08577f58a1bee363f93b90741fa39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_742ac9504786784b16dadcbcfdf355c1292bab0a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,6 +129,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/MariaPaula/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/MariaPaula/AndroidStudioProjects/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_824342f88cd50bf24c53136a8a79a77c3240fde0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/MariaPaula/AndroidStudioProjects/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -66,12 +147,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/MariaPaula/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/Users/MariaPaula/AndroidStudioProjects/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_824342f88cd50bf24c53136a8a79a77c3240fde0/classes.dex" />
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_eaac947060746aaf228fe5c6bf2760a8968bbcf1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_b2f182b32dc4c3cbc74dd8a9978ba1b991c8ec78/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,12 +192,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_33de36c3b4526b7203b56bc4194985a00a30fb8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/MariaPaula/AndroidStudioProjects/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
         <dex dex="/Users/MariaPaula/AndroidStudioProjects/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_3d6ccc43870d8e1be4024ab157f3c93714c79960/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a0e6b79c327d8f38f0ffe93e83deb51b4b39adfb">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2293edcd9c225212cf8ff609656b88e8d6009599/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_96b99f18bff1d8198b140413b7e19547f40b4f13/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -126,6 +243,15 @@
         revision="25.0.2"
         sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
         <dex dex="/Users/MariaPaula/AndroidStudioProjects/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_22f53ccf8990881a7c3de9f58c97198070c35196/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_ba6d7950834eef41159189c348c3ce062e804a8c/classes.dex" />
     </item>
     <item
         is-multidex="true"
