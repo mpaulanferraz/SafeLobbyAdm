@@ -1,5 +1,7 @@
 package com.example.mariapaula.safelobbyadm;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,12 +17,47 @@ public class ForgotPasswordController extends AppCompatActivity {
         esqueceu_senha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent novo = new Intent(ForgotPasswordController.this, NewPasswordMessageController.class);
-                startActivity(novo);
+//                Intent novo = new Intent(ForgotPasswordController.this, NewPasswordMessageController.class);
+//                startActivity(novo);
+//                finish();
+                showPopup();
 
             }
         });
 
+    }
+
+    private void showPopup() {
+        AlertDialog.Builder dialog = new
+                AlertDialog.Builder(this);
+        dialog.setMessage("Uma nova senha foi enviada para seu email");
+        dialog.setPositiveButton("Continuar", new
+                DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface di, int arg) {
+
+                        Intent myIntent = new Intent
+                                (ForgotPasswordController.this, LoginController.class);
+                        ForgotPasswordController.this.startActivity(myIntent);
+                        finish();
+
+// TODO Auto-generated method stub
+
+                    }
+                });
+
+        dialog.setNegativeButton("", new
+                DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface di, int arg) {
+// TODO Auto-generated method stub
+
+                    }
+                });
+        dialog.setTitle("Esqueceu a senha");
+        dialog.show();
     }
 
     @Override

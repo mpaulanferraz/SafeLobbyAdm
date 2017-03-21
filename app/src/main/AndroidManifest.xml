@@ -30,10 +30,7 @@
         <activity android:name=".ForgotPasswordController" />
         <activity android:name=".InfoAppController" />
         <activity android:name=".HomeEmployeeController" />
-        <activity android:name=".EditInfoAccountController" />
         <activity android:name=".EditMyAccountController" />
-        <activity android:name=".LogoutController" />
-        <activity android:name=".NewPasswordMessageController" />
         <activity android:name=".CouldNotConnectToServerController"></activity>
     </application>
 

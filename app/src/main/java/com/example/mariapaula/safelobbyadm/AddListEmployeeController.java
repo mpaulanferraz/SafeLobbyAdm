@@ -18,6 +18,7 @@ public class AddListEmployeeController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(AddListEmployeeController.this, AddEditEmployeeController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
@@ -32,6 +33,7 @@ public class AddListEmployeeController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(AddListEmployeeController.this, EmployeeListController.class);
                 startActivity(novo);
+                finish();
 
             }
         });

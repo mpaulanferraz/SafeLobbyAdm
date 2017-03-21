@@ -21,6 +21,7 @@ public class HomeAdmController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(HomeAdmController.this, MyAccountController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
@@ -34,6 +35,7 @@ public class HomeAdmController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(HomeAdmController.this, HistoryController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
@@ -47,6 +49,7 @@ public class HomeAdmController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(HomeAdmController.this, SeeGuestServiceController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
@@ -61,6 +64,7 @@ public class HomeAdmController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(HomeAdmController.this, ChooseAddEditController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
@@ -75,11 +79,15 @@ public class HomeAdmController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(HomeAdmController.this, InfoAppController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
 
     }
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

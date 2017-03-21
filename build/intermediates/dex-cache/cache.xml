@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4121fa5715834ac5312a1e582f16e794a92a7330">
+        sha1="f2e856262a9944856cfda3bb740e037858e1e894">
         <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cc665bce7fbaedd642f85f6439f8e4f143898e8e/classes.dex" />
     </item>
     <item
@@ -214,7 +214,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a0e6b79c327d8f38f0ffe93e83deb51b4b39adfb">
+        sha1="73a0fc6ea660c876d8a8f895835691105643d05b">
         <dex dex="/Users/MariaPaula/SafeLobbyAdm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2293edcd9c225212cf8ff609656b88e8d6009599/classes.dex" />
     </item>
     <item

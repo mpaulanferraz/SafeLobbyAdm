@@ -17,6 +17,7 @@ public class AddEditUserController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(AddEditUserController.this, HomeAdmController.class);
                 startActivity(novo);
+                finish();
 
             }
         });

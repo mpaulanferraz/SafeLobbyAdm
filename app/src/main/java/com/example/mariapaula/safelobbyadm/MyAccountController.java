@@ -1,5 +1,7 @@
 package com.example.mariapaula.safelobbyadm;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,8 +18,7 @@ public class MyAccountController extends AppCompatActivity {
         inputSair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent novo = new Intent(MyAccountController.this, LogoutController.class);
-                startActivity(novo);
+                showPopup();
 
             }
         });
@@ -31,10 +32,43 @@ public class MyAccountController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(MyAccountController.this, EditMyAccountController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
 
+    }
+
+    private void showPopup() {
+        AlertDialog.Builder dialog = new
+                AlertDialog.Builder(this);
+        dialog.setMessage("Deseja sair da conta?");
+        dialog.setPositiveButton("Sim", new
+                DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface di, int arg) {
+
+                        Intent myIntent = new Intent
+                                (MyAccountController.this, LoginController.class);
+                        MyAccountController.this.startActivity(myIntent);
+                        finish();
+// TODO Auto-generated method stub
+
+                    }
+                });
+
+        dialog.setNegativeButton("Não", new
+                DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface di, int arg) {
+// TODO Auto-generated method stub
+
+                    }
+                });
+        dialog.setTitle("Conta");
+        dialog.show();
     }
 
     @Override
@@ -43,5 +77,11 @@ public class MyAccountController extends AppCompatActivity {
         setContentView(R.layout.activity_my_account_controller);
         Logout();
         Edit();
+    }
+
+    public void onBackPressed() {
+        Intent novo = new Intent(MyAccountController.this, HomeAdmController.class);
+        startActivity(novo);
+        finish();
     }
 }

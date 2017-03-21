@@ -19,6 +19,7 @@ public class ChooseAddEditController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(ChooseAddEditController.this, AddListUserController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
@@ -32,13 +33,12 @@ public class ChooseAddEditController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(ChooseAddEditController.this, AddListEmployeeController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
 
     }
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,5 +47,11 @@ public class ChooseAddEditController extends AppCompatActivity {
         Guest();
         Employee();
 
+    }
+
+    public void onBackPressed() {
+        Intent novo = new Intent(ChooseAddEditController.this, HomeAdmController.class);
+        startActivity(novo);
+        finish();
     }
 }

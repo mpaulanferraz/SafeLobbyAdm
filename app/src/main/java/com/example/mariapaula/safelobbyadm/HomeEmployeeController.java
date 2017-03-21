@@ -20,6 +20,7 @@ public class HomeEmployeeController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(HomeEmployeeController.this, MyAccountController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
@@ -33,6 +34,7 @@ public class HomeEmployeeController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(HomeEmployeeController.this, HistoryController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
@@ -46,6 +48,7 @@ public class HomeEmployeeController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(HomeEmployeeController.this, SeeGuestServiceController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
@@ -59,6 +62,7 @@ public class HomeEmployeeController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(HomeEmployeeController.this, InfoAppController.class);
                 startActivity(novo);
+                finish();
 
             }
         });

@@ -18,6 +18,7 @@ public class SignInController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(SignInController.this, HomeEmployeeController.class);
                 startActivity(novo);
+                finish();
 
             }
         });

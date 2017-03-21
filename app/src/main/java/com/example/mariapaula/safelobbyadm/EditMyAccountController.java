@@ -18,11 +18,13 @@ public class EditMyAccountController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(EditMyAccountController.this, MyAccountController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
 
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,4 +32,7 @@ public class EditMyAccountController extends AppCompatActivity {
         setContentView(R.layout.activity_edit_my_account_controller);
         Confirm();
     }
+
+
+
 }

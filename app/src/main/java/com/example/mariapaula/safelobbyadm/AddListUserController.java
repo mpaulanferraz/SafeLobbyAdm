@@ -17,6 +17,7 @@ public class AddListUserController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(AddListUserController.this, AddEditUserController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
@@ -30,6 +31,7 @@ public class AddListUserController extends AppCompatActivity {
             public void onClick(View v) {
                 Intent novo = new Intent(AddListUserController.this, UserListController.class);
                 startActivity(novo);
+                finish();
 
             }
         });
